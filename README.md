@@ -51,7 +51,7 @@ Plot the graph to visuallize the data:
 plot(graph)
 
 ```
-![](ex3-Network-Analysis/images/1.png)
+![](/images/1.png)
 
 ## Calculating centerallity by betweenness, closeness, eigencetor:
 
@@ -106,7 +106,7 @@ cluster1 = edge.betweenness.community(graph)
 plot(graph, vertex.label=NA, vertex.color=membership(cluster1), vertex.size=8, asp=FALSE)
 
 ```
-![](ex3-Network-Analysis/images/2.png)
+![](/images/2.png)
 
 Now let's look at the membership property of our cluster:
 
@@ -115,7 +115,7 @@ groups1 = table(cluster1$membership)
 plot(groups1, xlab = "Group Number", ylab = "Group Size", type = "p")
 
 ```
-![](ex3-Network-Analysis/images/3.png)
+![](/images/3.png)
 
 **2. The above histogram describes our groups - number of groups in the cluster and the size of each group**
 
@@ -144,7 +144,7 @@ cluster2 = fastgreedy.community(graph2)
 plot(graph2, vertex.label=NA, vertex.color=membership(cluster2), vertex.size=8, asp=FALSE)
 
 ```
-![](ex3-Network-Analysis/images/4.png)
+![](/images/4.png)
 
 Now let's look at the membership property of our cluster:
 
@@ -153,7 +153,7 @@ groups2 = table(cluster2$membership)
 plot(groups2, xlab = "Group Number", ylab = "Group Size", type = "p")
 
 ```
-![](ex3-Network-Analysis/images/5.png)
+![](/images/5.png)
 
 **2. The above histogram describes our groups - number of groups in the cluster and the size of each group**
 
@@ -245,7 +245,7 @@ fb_graph_simple = simplify(fb_graph)
 plot(fb_graph_simple, layout=layout_with_kk)
 
 ```
-![](ex3-Network-Analysis/images/6.png)
+![](/images/6.png)
 
 # Back to question 1 with our facebook data graph
 
@@ -303,7 +303,7 @@ fb_cluster1 = edge.betweenness.community(fb_graph_simple)
 plot(fb_graph_simple, vertex.label=NA, vertex.color=membership(fb_cluster1), vertex.size=8, asp=FALSE)
 
 ```
-![](ex3-Network-Analysis/images/7.png)
+![](/images/7.png)
 
 Now let's look at the membership property of our cluster:
 
@@ -312,7 +312,7 @@ fb_groups1 = table(fb_cluster1$membership)
 plot(fb_groups1, xlab = "Group Number", ylab = "Group Size", type = "p")
 
 ```
-![](ex3-Network-Analysis/images/8.png)
+![](/images/8.png)
 
 **2. The above histogram describes our groups - number of groups in the cluster and the size of each group**
 
@@ -340,7 +340,7 @@ fb_cluster2 = fastgreedy.community(fb_graph_simple)
 plot(fb_graph_simple, vertex.label=NA, vertex.color=membership(fb_cluster2), vertex.size=8, asp=FALSE)
 
 ```
-![](ex3-Network-Analysis/images/9.png)
+![](/images/9.png)
 
 Now let's look at the membership property of our cluster:
 
@@ -349,7 +349,7 @@ fb_groups2 = table(fb_cluster2$membership)
 plot(fb_groups2, xlab = "Group Number", ylab = "Group Size", type = "p")
 
 ```
-![](ex3-Network-Analysis/images/10.png)
+![](/images/10.png)
 
 **2. The above histogram describes our groups - number of groups in the cluster and the size of each group**
 
