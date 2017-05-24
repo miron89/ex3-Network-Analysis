@@ -4,6 +4,7 @@ author: "Roy Miron & Bar Golikov"
 date: "19 במאי 2017"
 output: html_document
 ---
+**Download and open the HTML file to view this file with larger and more clear plots**
 
 # Question 1 Part 1
 
