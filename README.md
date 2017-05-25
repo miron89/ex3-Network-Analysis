@@ -180,7 +180,7 @@ Create OAuth for authentication with Facebook:
 
 ```
 
-Collect the 150 most liked posts out of the last 300 posts on bbc international page:
+Collect the 150 most liked posts out of the last 300 posts on cnn international page:
 
 ```{r}
 #fb_search = getPage(page = "cnninternational", my_oauth, n = 300)
@@ -281,7 +281,7 @@ max(eigencetor$vector)
 
 ```
 
-**3. Highest centerallity by eigencetor - 2 terms: "donald", "president" with the value 1**
+**3. Highest centerallity by eigencetor - the term: "trump" with the value 1**
 
 
 
